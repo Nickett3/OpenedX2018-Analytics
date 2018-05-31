@@ -4,7 +4,7 @@
 #consider using the RODBC package
 enrolls = run_query(“
 SELECT user_id, course_id
-FROM wwc.student_courseenrollment”
+FROM edxapp.student_courseenrollment”
 #check the data
 str(enrolls)
 #building the matrix
